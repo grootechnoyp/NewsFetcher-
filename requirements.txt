@@ -10,6 +10,3 @@ plotly==5.20.0
 gtts==2.5.1
 python-dotenv==1.0.1
 newsapi-python==0.2.7
-gnews==0.10.0
-tweepy==4.19.0
-feedparser==6.0.1
