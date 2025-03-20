@@ -1,0 +1,5 @@
+[settings]
+python_compile = 1
+
+[tools]
+python = "3.12.9"
