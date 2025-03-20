@@ -1,0 +1,17 @@
+app = "newsfetcher-yash"
+primary_region = "sjc"
+
+[build]
+  builder = "paketo-buildpacks/python"
+
+[env]
+  PORT = "8080"
+  EMAIL_SENDER = "your_email@gmail.com"
+  EMAIL_PASSWORD = "your_app_password"
+  NEWSAPI_KEY = "23ccac7d02af4646bfc72f18a5dfacdb"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
